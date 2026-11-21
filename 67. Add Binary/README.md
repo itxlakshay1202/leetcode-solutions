@@ -52,8 +52,7 @@ class Solution(object):
             if b[i] == '1':
                 num_b += pow(2,p)
             i+=1
-        print(num_a)
-        print(num_b)
+        
         num_sum = num_a+num_b
         if num_sum == 0:
             return "0"
